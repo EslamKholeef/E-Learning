@@ -1,0 +1,88 @@
+﻿@model DistanceLearning.Models.Chat
+@using DistanceLearning.Models;
+@using Microsoft.AspNet.Identity;
+@using System.Linq;
+@{
+    ApplicationDbContext db = new ApplicationDbContext();
+    var Id = User.Identity.GetUserId();
+    var user = db.Users.Where(u => u.Id == Id).FirstOrDefault();
+}
+<div id="UploadedDivForChat">
+    <div class="chatContent">
+        <ul  id="chatContentUl" class="list-unstyled">
+            @foreach (var item in Model.Messages)
+            {
+                if (item.Sender == user.UserName)
+                {
+            <li class="FirstSenderMsg">
+                @*<img src="~/Content/ProfilesImages/@item.User_Photo" width="32" height="32" />*@
+
+                <p>
+                    @*@Html.Raw(HttpUtility.HtmlDecode(item.Message_Content.ToString()))*@
+                    @item.Message_Content
+                </p>
+                @if (Model.FirstUserId == Id)
+                {
+                    <img class="rounded-circle" src="~/Content/ProfilesImages/@Model.First_Sender_Pic" width="32" height="32" />
+                }
+                else
+                {
+                    <img class="rounded-circle" src="~/Content/ProfilesImages/@Model.Second_Sender_Pic" width="32" height="32" />
+                }
+            </li>
+                }
+
+
+
+                else
+                {
+            <li class="SecondSenderMgs">
+
+                @if (Model.SecondUserId == Id)
+                {
+                    <img class="rounded-circle" src="~/Content/ProfilesImages/@Model.First_Sender_Pic" width="32" height="32" />
+                }
+                else
+                {
+                    <img class="rounded-circle" src="~/Content/ProfilesImages/@Model.Second_Sender_Pic" width="32" height="32" />
+                }
+                <p>
+                    @*@Html.Raw(HttpUtility.HtmlDecode(item.Message_Content.ToString()))*@
+                    @item.Message_Content
+                </p>
+            </li>
+                }
+            }
+        </ul>
+    </div>
+
+    <div class="sendMSGform">
+        @using (Ajax.BeginForm("SendMsg", "Chats", new AjaxOptions()
+        {
+            UpdateTargetId = "UploadedDivForChat",
+            HttpMethod = "Post",
+            InsertionMode = InsertionMode.Replace
+        }))
+        {
+            <input type="text" value="@Model.Id" name="id" style="display:none" />
+            <textarea type="text" name="content" id="msg-text-area"></textarea>
+
+            <button type="submit" class="send-msg-btn btn btn-success"> Send  <i class="fas fa-paper-plane"></i> </button>
+        }
+
+
+
+    </div>
+</div>
+
+
+
+
+@*<script src="~/Content/ckeditor/ckeditor.js"></script>
+
+    <script>
+
+        CKEDITOR.replace("msg-text-area");
+
+
+    </script>*@

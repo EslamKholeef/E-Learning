@@ -1,0 +1,85 @@
+﻿@model DistanceLearning.Models.CourseModel
+@using DistanceLearning.Models;
+@using Microsoft.AspNet.Identity;
+@{
+    ViewBag.Title = Model.CourseName;
+    ApplicationDbContext db = new ApplicationDbContext();
+    var Id = User.Identity.GetUserId();
+    var currentUser = db.Users.Where(a => a.Id == Id).SingleOrDefault();
+
+    var ThisCourseId = Model.Id;
+    var ThisCourse = db.CourseModels.Where(x => x.Id == ThisCourseId).FirstOrDefault();
+
+
+    var c = db.CoursesAndUsers.Where(x => x.TheCourse_Id == Model.Id && x.TheUser_Id == Id).FirstOrDefault();
+    //ViewBag.CheckIfRegistered = null;
+    var comment = db.Comments.Where(co => co.CourseId == ThisCourseId && co.User.Id == Id).FirstOrDefault();
+}
+
+@if (ThisCourse.FinalRatingDegree >= 50)
+{
+    <p class="text-center"> <span class="CD-num-of-likes CD-More-Fifty">@Math.Round(ThisCourse.FinalRatingDegree, 1)% </span> <span>of those who participated in the evaluation of this content liked it</span> </p>
+}
+else if (ThisCourse.FinalRatingDegree < 50 && ThisCourse.FinalRatingDegree > 10)
+{
+    <p class="text-center"> <span class="CD-num-of-likes CD-Lower-Fifty">@Math.Round(ThisCourse.FinalRatingDegree, 1)% </span><span>of those who participated in the evaluation of this content liked it</span></p>
+}
+else
+{
+    <p class="text-center"> <span class="CD-num-of-likes CD-Lower-ten">@Math.Round(ThisCourse.FinalRatingDegree, 1)% </span><span>of those who participated in the evaluation of this content liked it</span></p>
+}
+
+
+
+<div class="row">
+
+
+    <div class="col-lg-12 ">
+        @if (currentUser.LikedCourses.Contains(ThisCourse))
+        { }
+        else if (currentUser.MyCourses.Contains(c)&& currentUser.LikedCourses.Contains(ThisCourse)==false)
+        {
+
+            <div class="row text-center Rating">
+
+                <div class="col-lg-4">
+                    <p> are you like this course? </p>
+                    <span> Note: This poll is only available once </span>
+                </div>
+
+                <div class="col-lg-4">
+                    @using (Ajax.BeginForm("Liked", "CourseModels", new AjaxOptions()
+                    {
+                        UpdateTargetId = "PartialCourseRate",
+                        HttpMethod = "Post",
+                        InsertionMode = InsertionMode.Replace
+                    }))
+                    {
+                        <input type="text" name="id" value="@Model.Id" style="display:none" />
+                        <button type="submit" class="like d-block"> <i class="fas fa-thumbs-up fa-3x"></i> </button>
+
+                    }
+
+                </div>
+
+                <div class="col-lg-4">
+                    @using (Ajax.BeginForm("UnLiked", "CourseModels", new AjaxOptions()
+                    {
+                        UpdateTargetId = "PartialCourseRate",
+                        HttpMethod = "Post",
+                        InsertionMode = InsertionMode.Replace
+                    }))
+                    {
+                        <input type="text" name="id" value="@Model.Id" style="display:none" />
+                        <button type="submit" class="dislike d-block"> <i class="fas fa-thumbs-down fa-3x"></i> </button>
+
+
+                    }
+
+                </div>
+            </div>
+            <hr />
+
+        }
+    </div>
+</div>

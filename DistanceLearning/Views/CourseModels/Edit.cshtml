@@ -1,0 +1,81 @@
+﻿@model DistanceLearning.Models.CourseModel
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+
+@using (Html.BeginForm("Edit", "CourseModels", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <h4>CourseModel</h4>
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @Html.HiddenFor(model => model.Id)
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.CourseName, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.CourseName, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.CourseName, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.AboutTheCourse, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            <textarea name="Note_Text" id="NoteTxt"></textarea>
+            @Html.ValidationMessageFor(model => model.AboutTheCourse, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.CourseLogo, htmlAttributes: new { @class = "control-label col-md-2" })
+        <input type="file" name="CourseLogo" id="CourseLogo" />
+        @Html.ValidationMessageFor(model => model.CourseLogo, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Save" class="btn btn-default" id="submitEditForm" />
+        </div>
+    </div>
+</div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+
+    <script>
+        $(function () {
+            $("#submitEditForm").on("click", function () {
+
+                if ($("#CourseLogo").val() == "") {
+                    alert("please Add a Logo File! ");
+
+                    return false;
+                }
+
+            })
+        })
+
+
+    </script>
+}
+<script src="~/Content/ckeditor/ckeditor.js"></script>
+
+<script>
+
+    CKEDITOR.replace("NoteTxt");
+
+</script>

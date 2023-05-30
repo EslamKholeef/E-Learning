@@ -1,0 +1,204 @@
+﻿@model IEnumerable<DistanceLearning.Models.Chat>
+@using DistanceLearning.Models;
+@using Microsoft.AspNet.Identity;
+@using System.Linq;
+@{
+    Layout = null;
+    ApplicationDbContext db = new ApplicationDbContext();
+    var Id = User.Identity.GetUserId();
+    var user = db.Users.Where(u => u.Id == Id).FirstOrDefault();
+    Chat c = db.Chats.Where(ch => ch.FirstUserId == Id || ch.SecondUserId == Id).FirstOrDefault();
+
+
+
+    //var ThisChat = Model.Where(x => x.FirstUserId == Id).FirstOrDefault();
+    //ViewBag.ChatId = ThisChat.Id;
+
+
+    //var FirstUserId = ThisChat.FirstUserId;
+    //var FirstUser = db.Users.Where(s => s.Id == FirstUserId).FirstOrDefault();
+
+
+    //var SecondUserId = ThisChat.SecondUserId;
+    //var SecondUser = db.Users.Where(s => s.Id == SecondUserId).FirstOrDefault();
+}
+
+<link href="~/Content/src/css/jquery.dataTables.min.css" rel="stylesheet" />
+
+
+<div class="container">
+    <div class="Chat-Container">
+
+
+
+        <div class="row">
+
+            <div class="col-sm-6">
+                
+                <div class="chatMembers">
+                    @foreach (var item in Model)
+                    {
+
+                        //var FirstUser = db.Users.Where(n => n.Id == item.FirstUserId).FirstOrDefault().UserName;
+                        //var SecondUserId = item.SecondUserId;
+                        //var SecondUser = db.Users.Where(n => n.Id == item.SecondUserId).FirstOrDefault().UserName;
+
+
+
+                        if (item.FirstUserId == Id)
+                        {
+
+                            <form action="~/Chats/Delete" method="post" class="RemoveChatForm">
+                                <input type="text" name="id" value="@item.Id" style="display:none" />
+                                <button type="submit" onclick="return confirm('Sure ?');"><i class="fas fa-trash-alt fa-2x"></i></button>
+
+                            </form>
+                            using (Ajax.BeginForm("ChatWindow", "Chats", new AjaxOptions()
+                            {
+                                UpdateTargetId = "Chat_Window",
+                                HttpMethod = "Post",
+                                InsertionMode = InsertionMode.Replace
+                            }, new { @class = "ChatWindowForm" }))
+                            {
+                                <input type="text" name="id" value="@item.Id" style="display:none" />
+                                <button class="ChatWindowBtn" type="submit">
+
+                                    <img class="rounded-circle" src="~/Content/ProfilesImages/@db.Users.Where(n => n.Id == item.SecondUserId).FirstOrDefault().ProfileImg" width="50" height="50" />
+                                    <p class="Chat-User-Name"> @db.Users.Where(n => n.Id == item.SecondUserId).FirstOrDefault().UserName </p>
+                                </button>
+
+                            }
+                        }
+                        else if (item.SecondUserId == Id)
+                        {
+
+
+                            <form action="~/Chats/Delete" method="post" class="RemoveChatForm">
+                                <input type="text" name="id" value="@item.Id" style="display:none" />
+                                <button type="submit" onclick="return confirm('Sure ?');"><i class="fas fa-trash-alt fa-2x"></i></button>
+
+                            </form>
+
+
+                            using (Ajax.BeginForm("ChatWindow", "Chats", new AjaxOptions()
+                            {
+                                UpdateTargetId = "Chat_Window",
+                                HttpMethod = "Post",
+                                InsertionMode = InsertionMode.Replace
+                            }, new { @class = "ChatWindowForm2" }))
+                            {
+                                <input type="text" name="id" value="@item.Id" style="display:none" />
+
+                                <button class="ChatWindowBtn" type="submit">
+
+                                    <img class="rounded-circle" src="~/Content/ProfilesImages/@db.Users.Where(n => n.Id == item.FirstUserId).FirstOrDefault().ProfileImg" width="50" height="50" />
+
+                                    <p class="Chat-User-Name">@db.Users.Where(n => n.Id == item.FirstUserId).FirstOrDefault().UserName</p>
+
+                                </button>
+
+                            }
+                        }
+                    }
+                </div>
+                
+                
+            </div>
+
+
+
+            <div class="col-sm-6">
+                <div class="" id="Chat_Window">
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</div>
+
+<div class="container">
+    
+
+    <div class="row">
+
+        <div class="col-lg-12">
+
+
+            <table id="UsersToConnect" class="display">
+                <thead>
+                    <tr>
+                        <th>
+                            
+                        </th>
+                        <th>
+                            
+                        </th>
+
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in db.Users)
+
+                    {
+
+                        if (item.Id == Id|| (item.UserName=="Admin"&&item.Email== "Admin@gmail.com"))
+                        {
+
+                        }
+                        else
+                        {
+
+                            <tr>
+                                <td>
+                                    <img src="~/Content/CourseLogos/@Html.DisplayFor(Model => item.ProfileImg)" height="64" width="64" class="img-thumbnail" />
+                                    <p class="UserNameToChatWithHim">
+                                        @Html.DisplayFor(modelItem => item.UserName)
+                                    </p>
+
+                                </td>
+                              
+                                <td>
+                                    <form action="~/Chats/CreateChat" method="post">
+                                        <input type="text" name="id" value="@item.Id" style="display:none;" />
+                                        <button type="submit" class="btn btn-info">Contact Now!</button>
+                                    </form>
+
+                                    
+
+                                </td>
+                            </tr>
+
+                        }
+
+
+
+
+                    }
+
+
+                </tbody>
+            </table>
+
+
+        </div>
+    </div>
+</div>
+<script src="~/Content/src/js/jquery-3.5.1.min.js"></script>
+<script src="~/Content/src/js/jquery.dataTables.min.js"></script>
+
+<script>
+
+
+    $(document).ready(function () {
+        $('#UsersToConnect').DataTable();
+
+
+    });
+</script>

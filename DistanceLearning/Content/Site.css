@@ -1,0 +1,685 @@
+﻿/*body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}*/
+
+/* Set padding to keep content from hitting the edges */
+/*.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}*/
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+/*.dl-horizontal dt {
+    white-space: normal;
+}*/
+
+/* Set width on the form input elements since they're 100% wide by default */
+/*input,
+select,
+textarea {
+    max-width: 280px;
+}*/
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to bottom,#bc2a49,#007BFF );
+    border-radius: 5px;
+}
+
+
+
+/******************************************/
+/************** Layout Chat **************/
+/****************************************/
+
+.Layout_Chat_Btn span {
+    position: fixed;
+    top: 70px;
+    left: 10px;
+    background-color: #959595;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 10;
+}
+
+    .Layout_Chat_Btn span svg {
+        color: white;
+    }
+.Layout_Chat_Fixed_Div {
+    position: fixed;
+    width: 95%;
+    height: 95%;
+    top: 25px;
+    left: 50px;
+    z-index: 5;
+    overflow: hidden;
+    overflow-y: auto;
+    background-color: #d5d5d5;
+}
+@media(max-width:768px){
+    .Layout_Chat_Fixed_Div {
+        left:10px;
+    }
+    ::-webkit-scrollbar {
+        width:5px;
+    }
+}
+/******************************************/
+/***********Course Details Page***********/
+/******************CD********************/
+/******************************************/
+/***********Course Details Page***********/
+/******************CD********************/
+.Video-List {
+    max-height: 400px;
+    overflow: auto;
+    background-color: #e0e0e0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.Video-Title {
+    width: 100% !important;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+@media(max-width:768px){
+    .Video-Title{
+        width:87% !important;
+    }
+}
+.Big video {
+    width: 100% !important;
+}
+
+.CourseTitle {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    color: #bc2a49;
+}
+
+.DeleteVideoFromList,
+.DeleteVideoFromList:focus {
+    color: white;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    margin-top: 7px;
+    font-size: 22px;
+    margin-left: -5px;
+}
+@media(max-width:768px){
+    .DeleteVideoForm {
+        position: relative;
+        width: 0px;
+        height: 0px;
+    }
+    .DeleteVideoFromList {
+        position: absolute;
+        top: -48px;
+        right: 10px;
+    }
+
+}
+.AddVideoFromDetailsPage-form {
+    margin-top: 50px;
+}
+
+    .AddVideoFromDetailsPage-form input {
+        width: 100%;
+    }
+
+    .AddVideoFromDetailsPage-form p {
+        color: #bc2a49;
+        text-align: center;
+    }
+
+    .AddVideoFromDetailsPage-form button {
+        width: 100%;
+        background-color: #bc2a49;
+        padding: 10px 30px;
+        margin: 10px auto;
+        margin-left: auto;
+        color: white;
+        border: none;
+        outline: none;
+        border-radius: 15px;
+    }
+
+.CD-Options a {
+    text-decoration: none;
+}
+
+    .CD-Options a:nth-of-type(1),
+    .CD-Options a:nth-of-type(1):hover {
+        color: #0c5460;
+    }
+
+    .CD-Options a:nth-of-type(2),
+    .CD-Options a:nth-of-type(2):hover {
+        color: #0c5460;
+    }
+
+.Reg-Course-Btn {
+    margin: 20px auto;
+}
+.dislike,
+.like,
+.dislike:focus,
+.like:focus {
+    width: 100%;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+}
+.dislike svg {
+    color: red;
+}
+
+.like svg {
+    color: green;
+}
+.NumOfStudentsInCourse span {
+    display: block;
+    margin-top: 20px;
+    color: #bc2a49;
+    margin-bottom: 25px;
+    font-size: 25px !important;
+}
+.NumOfStudentsInCourse p{
+    color:gray;
+}
+    .NumOfStudentsInCourse p span{
+        color: dodgerblue;
+        display:inline-block;
+        margin: auto 0px;
+    }
+    .CD-num-of-likes {
+        font-size: 50px !important;
+        font-style: italic;
+        display: block;
+        width: fit-content;
+        padding: 22px 8px;
+        margin: 20px auto;
+        text-align: center;
+        border-width: 3px;
+        border-style: dashed;
+        border-radius: 20px;
+    }
+        .CD-num-of-likes + span {
+            display: block;
+            color: gray;
+            font-size: 25px !important;
+        }
+.Rating p{
+    color: gray;
+}
+.Rating span {
+    display: block;
+    font-size: 11px !important;
+    color: #bc2a49;
+}
+    .CD-More-Fifty {
+        color: lawngreen;
+        border-color: green;
+    }
+
+.CD-Lower-Fifty {
+    color: #b5b500;
+    border-color: #727200;
+}
+
+.CD-Lower-ten {
+    color: red;
+    border-color: darkred;
+}
+
+.CD-CourseComments {
+
+    overflow-x: hidden;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+.CommentsList{
+    max-height: 500px;
+    overflow-y: auto;
+}
+.commentArea {
+    background-color: #1976d2;
+    margin: 10px auto;
+    padding: 10px 5px;
+    border-radius: 25px;
+}
+    .commentArea img {
+        display: inline;
+        margin-left: 10px;
+    }
+
+    .commentArea p {
+        display: inline-block;
+        margin-left: 5px;
+        margin-top:15px;
+    }
+
+@media(max-width:768px){
+
+}
+
+.CD-CourseComments h6 {
+    margin-top: 15px;
+    background-color: #3882d7;
+    padding: 7px;
+    font-style: italic;
+    font-weight: 700;
+    font-family: 'Font Awesome 5 Brands';
+    max-width: 100%;
+    min-width: 100%;
+    line-break: anywhere;
+}
+
+.CD-CourseComments span {
+    margin-top: 25px;
+    display: block;
+}
+
+    .CD-CourseComments span button,
+    .CD-CourseComments span button:focus {
+        background-color: transparent !important;
+        border: none;
+        outline: none;
+        color: red;
+    }
+
+.AddCommentForm {
+    padding: 10px 20px;
+}
+    .AddCommentForm textarea {
+        display: block;
+        min-width: 100%;
+        max-width: 100%;
+        min-height: 100px;
+        text-align: center;
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 700;
+        font-family: 'Font Awesome 5 Brands';
+        padding: 5px 10px;
+    }
+    .AddCommentForm button{
+        display:block;
+        width:100%;
+        margin-top:20px;
+    }
+    @media(max-width:768px){
+        .CD-CourseComments form {
+            position: absolute;
+        }
+
+        .CD-CourseComments form button {
+            position: absolute;
+            left: 205px;
+            top: -456%;
+        }
+
+    }
+.CommentDate {
+    margin-top: 5px !important;
+    color: #4f4f4f;
+    font-weight: bold;
+    font-size: 11px !important;
+}
+/**************************************************/
+/*****************Manage Page*********************/
+/************************************************/
+.MP-UserName {
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 40px;
+}
+
+.MP-AboutUser {
+    color: lightslategray
+}
+.MP-UserPic {
+    display: block;
+    margin-top: 40px;
+
+}
+#Edit-Form-Btn{
+    cursor:pointer;
+}
+.MP-ProfilePageLink,
+.MP-ProfilePageLink:hover {
+    text-decoration: none;
+    color: white;
+    font-size: 22px !important;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    display: block;
+}
+
+.MP-LogOut {
+    margin: 10px auto;
+}
+
+.MP-UserCourses-list h4,
+.MP-UserOptions h4,
+.MP-Notes h4 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    width: fit-content;
+    padding: 5px 30px;
+    color: lightgray;
+}
+
+    .MP-UserCourses-list h4::after,
+    .MP-UserOptions h4::after,
+    .MP-Notes h4::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background-color: #BC2A49;
+        z-index: -1;
+        transform: skewX(-25deg);
+    }
+
+.MP-UserCourses-list .details{
+width: 97%;
+max-height: 100px;
+overflow-y: auto;
+display:block;
+}
+.MP-UserCourses-list a,
+.MP-UserCourses-list a:hover {
+    display: block;
+    text-decoration: none;
+    color: #383d41;
+}
+
+
+
+.MP-UserOptions a,
+.MP-UserOptions a:hover {
+    display: block;
+    text-decoration: none;
+}
+
+
+.MP-UserCourses-list .marvel {
+    margin-top: 15px;
+    font-size: 25px !important;
+}
+
+.marvel span {
+    position: absolute;
+    right: 20px;
+    top: 5px;
+}
+
+    .marvel span a {
+        color: #ca0000 !important;
+    }
+
+.Switch-Note {
+    width: 100px !important;
+    height: 100px !important;
+    overflow: hidden;
+    background-color: transparent !important;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    border: 4px solid #b9b9b9;
+    animation-name: NoteBtn-Animate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+    .Switch-Note:focus {
+        outline: none;
+    }
+
+    .Switch-Note:hover {
+        animation-play-state: paused;
+        box-shadow: 5px -5px 10px #17a2b8, -5px -5px 10px #17a2b8, 5px 5px 10px #17a2b8, -5px 5px 10px #17a2b8;
+    }
+
+        .Switch-Note:hover img {
+            transform: rotate(360deg);
+        }
+
+    .Switch-Note img {
+        width: 100% !important;
+        height: 100% !important;
+        transition: all .3s linear;
+    }
+
+#MP-User-Notes-Btns {
+    background-color: #0076ab;
+    padding: 15px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+#MP-User-Notes-Details {
+    background-color: #ececec;
+    padding: 0px 20px;
+}
+
+.Note-Name-Logo,
+.Note-Text {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+    .Note-Name-Logo img {
+        width: 100%;
+        height: 300px;
+        border-radius: 10px;
+    }
+
+
+/***************************************/
+/***************************************/
+/***************************************/
+.AboutUserArea {
+    margin-top: 0px;
+    margin-bottom: 8px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 50px;
+    max-height: 50px;
+    font-size: 13px;
+    height: 65px;
+}
+
+
+@keyframes NoteBtn-Animate {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+/***************************************/
+/*************  Chats  *****************/
+/***************************************/
+.Chat-Container {
+    margin-top: 70px;
+
+}
+.chatMembers {
+    max-height: 520px;
+    overflow: auto;
+    padding: 20px;
+    background-color: #d4d4d4;
+    border-radius: 25px;
+}
+.chatContent {
+    height: 500px;
+    max-height: 500px;
+    overflow: auto;
+    background-image: url("./pics/chat.png");
+    /*background-color: black;*/
+    color: white;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+    .chatContent::-webkit-scrollbar {
+        width: 5px;
+    }
+    .chatContent span {
+        margin-top: 15px;
+    }
+.Chat-Container button {
+    outline: none;
+    border: none;
+    margin-top: -20px;
+    background-color: #2196f3;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+    padding: 5px 20px;
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.Chat-Container button img{
+    display:inline-block;
+}
+.Chat-Container button p{
+    display:inline-block;
+    margin-left:20px;
+    font-size:15px !important;
+}
+@media (max-width: 768px) {
+    .Chat-Container button p {
+        font-size: 12px !important;
+    }
+    .Chat-Container button img {
+        height:30px !important;
+        width: 30px !important
+    }
+}
+.Chat-Container .send-msg-btn {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+    .Chat-Container .send-msg-btn svg {
+        color: #004e12;
+    }
+.Chat-Container #msg-text-area {
+    width: 100%;
+    min-width:100%;
+    max-width: 100%;
+    height: 85px;
+    min-height:85px;
+    max-height: 85px;
+    text-align: center;
+}
+.FirstSenderMsg{
+    text-align:right;
+}
+    .FirstSenderMsg p {
+        max-width: 60%;
+        display: inline-block;
+        background-color: cornflowerblue;
+        padding: 10px;
+        padding-right:30px;
+        border-top-right-radius: 20px;
+        word-break: break-word;
+    }
+
+.SecondSenderMgs img {
+    display: inline-block;
+    margin-top: 13px;
+}
+.SecondSenderMgs p {
+    display: inline-block;
+    margin-left: 7px;
+    background-color: #9e9e9e;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    word-break: break-word;
+    max-width:60%;
+}
+
+.RemoveChatForm {
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+@media (max-width: 768px) {
+    .RemoveChatForm{
+        top:36px;
+        left:8px;
+    }
+
+    
+    .Chat-Container button{
+        padding: 0px 0px ;
+    }
+        .Chat-Container button p {
+            margin-left: 5px;
+            position: relative;
+            top: 5px;
+            font-size: 14px !important;
+            word-break: break-all;
+        }
+        .Chat-Container button img {
+            position: relative;
+            top: 3px;
+        }
+}
+    .RemoveChatForm button {
+        background-color: transparent;
+        color: red !important;
+        padding:0;
+        margin:0;
+    }
+
+.UserNameToChatWithHim{
+    display:inline-block;
+    margin-left:5px;
+}
+/*
+    ////////////////////////////////////
+*/
+
+#UsersToConnect_wrapper {
+    margin-top: 100px !important;
+}

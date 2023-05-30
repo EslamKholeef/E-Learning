@@ -1,0 +1,210 @@
+﻿@model DistanceLearning.Models.CourseModel
+@using DistanceLearning.Models;
+@using Microsoft.AspNet.Identity;
+@{
+
+    ApplicationDbContext db = new ApplicationDbContext();
+    var Id = User.Identity.GetUserId();
+    var currentUser = db.Users.Where(a => a.Id == Id).SingleOrDefault();
+
+    var ThisCourseId = Model.Id;
+    var ThisCourse = db.CourseModels.Where(x => x.Id == ThisCourseId).FirstOrDefault();
+
+}
+
+
+
+@*show Only my comment == work well!*@
+@*@if (currentUser.Comments.Contains(comment))
+    {
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <img class="img-thumbnail" src="~/Content/ProfilesImages/@comment.User.ProfileImg" width="64" height="64" />
+                        <p class="text-center">@comment.User.UserName</p>
+                    </div>
+                    <div class="col-lg-9">
+                        <h6 class="text-center">
+                            @comment.TheComment
+                        </h6>
+                    </div>
+                    <div class="col-lg-1">
+                        @if (comment.User.Id == Id || comment.User.UserType == "Admins")
+                        {
+                            <form action="~/CourseModels/DeleteComment" method="post">
+                                <input name="id" type="text" value="@comment.Id" style="display:none" />
+                                <input name="courseId" type="text" value="@ThisCourseId" style="display:none" />
+                                <span>
+                                    <button type="submit" title="Delete This Comment"
+                                            onclick="return confirm('Do you want to Delete this Comment ?')">
+                                        <i class="fas fa-trash-alt fa-2x"></i>
+                                    </button>
+                                </span>
+                            </form>
+                        }
+                    </div>
+                </div>
+            </div>
+    }*@
+
+
+
+
+@*show all comments == work well*@
+
+
+<div class="row">
+    <div class="col-lg-12 CommentsList">
+        @if (ThisCourse.Comments.Count() == 0)
+        {
+
+        }
+        else
+        {
+            foreach (var item in ThisCourse.Comments)
+            {
+
+
+                <div class="col-lg-12 commentArea">
+
+                    <div class="row">
+
+                        <div class="col-lg-3">
+                            <img class="rounded-circle" src="~/Content/ProfilesImages/@item.StudentLogo" width="40" height="40" />
+                            <p class="text-center">@item.StudentName</p>
+
+                        </div>
+
+
+                        <div class="col-lg-8">
+                            <h6 class="text-center">
+                                @item.TheComment
+                            </h6>
+                            <span class="CommentDate">@item.CommentDate</span>
+                        </div>
+
+                        <div class="col-lg-1">
+                            @if (item.UserId == currentUser.Id || currentUser.UserType == "Admins")
+                            {
+
+
+                                using (Ajax.BeginForm("PartialDeleteComment", "CourseModels", new AjaxOptions()
+                                {
+                                    UpdateTargetId = "CD-CourseComments",
+                                    HttpMethod = "Post",
+                                    InsertionMode = InsertionMode.Replace
+                                }))
+                                {
+                                    <input name="id" type="text" value="@item.Id" style="display:none" />
+                                    <input name="courseId" type="text" value="@ThisCourseId" style="display:none" />
+                                    <input name="UserId" type="text" value="@Id" style="display:none" />
+                                    <span>
+                                        <button type="submit" title="Delete This Comment"
+                                                onclick="return confirm('Do you want to Delete this Comment ?')">
+                                            <i class="fas fa-trash-alt fa-2x"></i>
+                                        </button>
+                                    </span>
+                                }
+                                
+
+                            }
+
+                        </div>
+
+                    </div>
+
+                </div>
+            }
+
+
+        }
+
+
+    </div>
+</div>
+
+
+
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="AddCommentForm">
+
+
+            @*<form action="~/CourseModels/AddComment" method="post">
+                    <textarea name="text"></textarea>
+                    <input type="text" name="id" value="@ThisCourseId" style="display:none;" />
+                    <input type="text" name="userId" value="@Id" style="display:none;" />
+                    <button type="submit" class="btn btn-success">Share Comment</button>
+                </form>*@
+
+            @using (Ajax.BeginForm("PartialAddComment", "CourseModels", new AjaxOptions()
+            {
+                UpdateTargetId = "CD-CourseComments",
+                HttpMethod = "Post",
+                InsertionMode = InsertionMode.Replace
+            }))
+            {
+                <textarea id="CommentText" name="text"></textarea>
+                <input type="text" name="id" value="@ThisCourseId" style="display:none;" />
+                <input type="text" name="userId" value="@Id" style="display:none;" />
+                <button id="ShareCommentBtn" type="submit" class="btn btn-success">Share Comment</button>
+            }
+        </div>
+    </div>
+</div>
+
+
+@*<div class="CD-CourseComments">
+        <div class="row">
+
+
+            @foreach (var item in Model)
+            {
+
+                <div class="col-lg-12">
+
+                    <div class="row">
+
+                        <div class="col-lg-2">
+                            <img class="img-thumbnail" src="~/Content/ProfilesImages/@item.User.ProfileImg" width="64" height="64" />
+                            <p class="text-center">@item.User.UserName</p>
+                        </div>
+
+
+                        <div class="col-lg-9">
+                            <h6 class="text-center">
+                                @item.TheComment
+                            </h6>
+                        </div>
+
+                        <div class="col-lg-1">
+                            @if (item.User.Id == Id || item.User.UserType == "Admins")
+                            {
+                                <form action="~/CourseModels/DeleteComment" method="post">
+
+                                    <input name="id" type="text" value="@item.Id" style="display:none" />
+                                    <input name="courseId" type="text" value="@item.CourseId" style="display:none" />
+                                    <span>
+                                        <button type="submit" title="Delete This Comment"
+                                                onclick="return confirm('Do you want to Delete this Comment ?')">
+                                            <i class="fas fa-trash-alt fa-2x"></i>
+                                        </button>
+                                    </span>
+                                </form>
+
+                            }
+
+                        </div>
+
+                    </div>
+
+                </div>
+            }
+
+
+
+
+        </div>
+
+    </div>*@

@@ -1,0 +1,174 @@
+﻿@model DistanceLearning.Models.CourseModel
+@using DistanceLearning.Models;
+@using Microsoft.AspNet.Identity;
+@{
+    ViewBag.Title = Model.CourseName;
+    ApplicationDbContext db = new ApplicationDbContext();
+    var Id = User.Identity.GetUserId();
+    var currentUser = db.Users.Where(a => a.Id == Id).SingleOrDefault();
+
+    var ThisCourseId = Model.Id;
+    var ThisCourse = db.CourseModels.Where(x => x.Id == ThisCourseId).FirstOrDefault();
+    ViewBag.CurrentCourse = ThisCourse.CourseName;
+
+    var c = db.CoursesAndUsers.Where(x => x.TheCourse_Id == Model.Id && x.TheUser_Id == Id).FirstOrDefault();
+
+    var comment = db.Comments.Where(co => co.CourseId == ThisCourseId && co.User.Id == Id).FirstOrDefault();
+}
+
+
+
+
+
+
+
+
+        @if (currentUser.MyCourses.Contains(c) || Model.MainPublisher.Id == currentUser.Id)
+        {
+<div class="col-lg-12 Video-List">
+
+
+    @using (Ajax.BeginForm("AddSrcToBigVideo", "Videos", new AjaxOptions()
+    {
+        UpdateTargetId = "DisplayMainVideo",
+        HttpMethod = "Post",
+        InsertionMode = InsertionMode.Replace
+    }))
+    {
+        <input type="text" name="SrcName" value="@ViewBag.CurrentCourse/@Model.DemoAboutTheCourse" style="display:none" />
+        <button type="submit" class="btn btn-dark Video-Title"> Demo </button>
+
+    }
+
+    @foreach (var item in Model.Videos)
+    {
+        <div class="row">
+            <div class="col-sm-10">
+                @using (Ajax.BeginForm("AddSrcToBigVideo", "Videos", new AjaxOptions()
+                {
+                    UpdateTargetId = "DisplayMainVideo",
+                    HttpMethod = "Post",
+                    InsertionMode = InsertionMode.Replace
+                }))
+                {
+                <input type="text" name="SrcName" value="@ViewBag.CurrentCourse/@item.Path" style="display:none" />
+                <button type="submit" class="btn btn-dark Video-Title"> @item.VideoTitle</button>
+
+                @*@Ajax.ActionLink("x", "Delete", "Videos", new { id = item.Id },new AjaxOptions() {
+        UpdateTargetId = "CourseListDiv",
+        HttpMethod = "Get",
+        InsertionMode = InsertionMode.Replace
+
+        },null)*@
+
+
+
+                }
+            </div>
+
+
+
+            <div class="col-sm-2">
+                @if (Model.MainPublisher.UserName == currentUser.UserName)
+                {
+                @*<a type="submit" class="DeleteVideoFromList" href="~/Videos/Delete/@item.Id" onclick="return confirm('Do you want to delete @item.VideoTitle?')"><i class="fas fa-lg fa-times"></i></a>*@
+
+                using (Ajax.BeginForm("Delete", "Videos", new AjaxOptions()
+                {
+                    UpdateTargetId = "CourseListDiv",
+                    HttpMethod = "Post",
+                    InsertionMode = InsertionMode.Replace
+
+                }))
+                {
+                <input type="text" name="id" value="@item.Id" style="display:none" />
+                <input type="text" name="courseId" value="@Model.Id" style="display:none" />
+
+
+                <button type="submit" class="DeleteVideoFromList" onclick="return confirm('Do you want to delete @item.VideoTitle?')"><i class="fas fa-lg fa-times "></i></button>
+                }
+                }
+            </div>
+        </div>
+
+
+
+
+    }
+
+
+</div>
+        }
+        else if (currentUser.MyCourses.Contains(c) == false)
+        {
+            <div class="col-lg-12 Video-List">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <a class="Reg-Course-Btn btn btn-success btn-block" href="~/CourseModels/Register/@Model.Id"> Register Now </a>
+                    </div>
+                </div>
+            </div>
+        }
+
+
+
+
+        @if (Model.MainPublisher.Id == currentUser.Id)
+        {
+            <div class="row AddVideoFromDetailsPage-form">
+
+
+                <div class="col-lg-12 form-horizontal">
+                    <p class="text-center"> Upload New Video </p>
+                    @using (Ajax.BeginForm("PartialCreate", "CourseModels", new AjaxOptions()
+                    {
+                        UpdateTargetId = "CourseListDiv",
+                        HttpMethod = "Post",
+                        InsertionMode = InsertionMode.Replace
+
+                    }, new { enctype = "multipart/form-data" }))
+                    {
+
+
+                        <div class="row ">
+
+                            <div class="col-sm-12">
+                                <div class="form-group">
+
+                                    <input type="file" name="UploadVideo" />
+
+                                </div>
+                            </div>
+
+
+                            <div class="col-sm-12">
+                                <div class="form-group">
+
+                                    <input class="form-control" type="text" name="VideoTitle" placeholder="VideoTitle" />
+
+                                </div>
+                            </div>
+
+
+                            <div class="col-sm-12">
+                                <div class="form-group">
+
+                                    <input class="form-control" type="text" value="@Model.Code" readonly name="CourseCode" placeholder="CourseCode" style="display:none" />
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+
+                            <button type="submit" class=" SubmitAddVideoBtn"> Add To List </button>
+                        </div>
+
+                    }
+
+                </div>
+
+
+            </div>
+        }
+

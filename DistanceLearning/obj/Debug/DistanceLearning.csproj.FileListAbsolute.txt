@@ -1,0 +1,590 @@
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\DistanceLearning.dll.config
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\DistanceLearning.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\DistanceLearning.pdb
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\roslyn\csc.exe
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\roslyn\csc.exe.config
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\roslyn\csc.rsp
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\roslyn\csi.exe
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\roslyn\csi.rsp
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\roslyn\System.AppContext.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\roslyn\System.Collections.Immutable.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\roslyn\System.Diagnostics.StackTrace.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\roslyn\System.IO.FileSystem.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\roslyn\System.IO.FileSystem.Primitives.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\roslyn\System.Reflection.Metadata.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\roslyn\vbc.exe
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\roslyn\vbc.exe.config
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\roslyn\vbc.rsp
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\roslyn\VBCSCompiler.exe
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\roslyn\VBCSCompiler.exe.config
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\Antlr3.Runtime.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\EntityFramework.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\EntityFramework.SqlServer.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.AspNet.Identity.Core.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.AspNet.Identity.Owin.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Host.SystemWeb.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.Cookies.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.Facebook.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.Google.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.OAuth.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.Twitter.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Web.Infrastructure.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\Newtonsoft.Json.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\Owin.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\System.Web.Helpers.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\System.Web.Mvc.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\System.Web.Optimization.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\System.Web.Razor.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\System.Web.WebPages.Deployment.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\System.Web.WebPages.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\System.Web.WebPages.Razor.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\WebGrease.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\System.Web.Helpers.xml
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\System.Web.Mvc.xml
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\System.Web.Optimization.xml
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\System.Web.Razor.xml
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\System.Web.WebPages.xml
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\System.Web.WebPages.Deployment.xml
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\System.Web.WebPages.Razor.xml
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\Newtonsoft.Json.xml
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\Antlr3.Runtime.pdb
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\EntityFramework.xml
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\EntityFramework.SqlServer.xml
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.AspNet.Identity.Core.xml
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.AspNet.Identity.Owin.xml
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.xml
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Host.SystemWeb.xml
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.xml
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.Facebook.xml
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.Cookies.xml
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.Google.xml
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.Twitter.xml
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.OAuth.xml
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.csproj.CoreCompileInputs.cache
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.csproj.CopyComplete
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.dll
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.pdb
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.InitialCreate.resources
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.csproj.GenerateResource.cache
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.AddRoles.resources
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.AddUserToRole.resources
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.RegisterForm.resources
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.AddImages.resources
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.categories.resources
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.EditInCourseModel.resources
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.edit2.resources
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.t2.resources
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.EditCourse.resources
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.EditCourse2.resources
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.EditCourse3.resources
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.EditCourseFinal.resources
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.editincoursemod1.resources
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.EditPublisher.resources
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.editusernameidentity.resources
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.editCourseRating.resources
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.addAboutUser2.resources
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.addLikesandUnlikes6.resources
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.addLikesandUnlikesshit1.resources
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.AddPersonalNotes.resources
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.CKEditor.resources
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.AddPersonalNotes2.resources
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.NoteLogo.resources
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.NoteLogo2.resources
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.Comments.resources
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.chat.resources
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.chatckEditor.resources
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.EditInChat.resources
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.EditInChatMessages.resources
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.AddUserChatsToIdentity.resources
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.AddCommentTime.resources
+H:\Eslam2020\2021\asp.net\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.csproj.AssemblyReference.cache
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\DistanceLearning.dll.config
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\DistanceLearning.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\DistanceLearning.pdb
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\csc.exe
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\csc.exe.config
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\csc.rsp
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\csi.exe
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\csi.rsp
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\System.AppContext.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\System.Collections.Immutable.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\System.Diagnostics.StackTrace.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\System.IO.FileSystem.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\System.IO.FileSystem.Primitives.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\System.Reflection.Metadata.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\vbc.exe
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\vbc.exe.config
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\vbc.rsp
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\VBCSCompiler.exe
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\VBCSCompiler.exe.config
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Antlr3.Runtime.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\EntityFramework.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\EntityFramework.SqlServer.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.AspNet.Identity.Core.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.AspNet.Identity.Owin.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Host.SystemWeb.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.Cookies.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.Facebook.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.Google.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.OAuth.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.Twitter.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Web.Infrastructure.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Newtonsoft.Json.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Owin.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\System.Web.Helpers.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\System.Web.Mvc.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\System.Web.Optimization.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\System.Web.Razor.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\System.Web.WebPages.Deployment.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\System.Web.WebPages.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\System.Web.WebPages.Razor.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\WebGrease.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\System.Web.Helpers.xml
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\System.Web.Mvc.xml
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\System.Web.Optimization.xml
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\System.Web.Razor.xml
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\System.Web.WebPages.xml
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\System.Web.WebPages.Deployment.xml
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\System.Web.WebPages.Razor.xml
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Newtonsoft.Json.xml
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Antlr3.Runtime.pdb
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\EntityFramework.xml
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\EntityFramework.SqlServer.xml
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.AspNet.Identity.Core.xml
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.AspNet.Identity.Owin.xml
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.xml
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Host.SystemWeb.xml
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.xml
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.Facebook.xml
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.Cookies.xml
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.Google.xml
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.Twitter.xml
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.OAuth.xml
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.csproj.AssemblyReference.cache
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.InitialCreate.resources
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.AddRoles.resources
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.AddUserToRole.resources
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.RegisterForm.resources
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.AddImages.resources
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.categories.resources
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.EditInCourseModel.resources
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.edit2.resources
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.t2.resources
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.EditCourse.resources
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.EditCourse2.resources
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.EditCourse3.resources
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.EditCourseFinal.resources
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.editincoursemod1.resources
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.EditPublisher.resources
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.editusernameidentity.resources
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.editCourseRating.resources
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.addAboutUser2.resources
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.addLikesandUnlikes6.resources
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.addLikesandUnlikesshit1.resources
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.AddPersonalNotes.resources
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.CKEditor.resources
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.AddPersonalNotes2.resources
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.NoteLogo.resources
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.NoteLogo2.resources
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.Comments.resources
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.chat.resources
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.chatckEditor.resources
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.EditInChat.resources
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.EditInChatMessages.resources
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.AddUserChatsToIdentity.resources
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.AddCommentTime.resources
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.csproj.GenerateResource.cache
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.csproj.CoreCompileInputs.cache
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.csproj.CopyComplete
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.dll
+H:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.pdb
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\DistanceLearning.dll.config
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\DistanceLearning.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\DistanceLearning.pdb
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\csc.exe
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\csc.exe.config
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\csc.rsp
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\csi.exe
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\csi.rsp
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\System.AppContext.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\System.Collections.Immutable.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\System.IO.FileSystem.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\System.Reflection.Metadata.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\vbc.exe
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\vbc.exe.config
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\vbc.rsp
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\VBCSCompiler.exe
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\VBCSCompiler.exe.config
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Antlr3.Runtime.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\EntityFramework.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\EntityFramework.SqlServer.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.Google.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Web.Infrastructure.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Newtonsoft.Json.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Owin.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\System.Web.Helpers.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\System.Web.Mvc.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\System.Web.Optimization.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\System.Web.Razor.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\System.Web.WebPages.Deployment.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\System.Web.WebPages.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\System.Web.WebPages.Razor.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\WebGrease.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\System.Web.Helpers.xml
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\System.Web.Mvc.xml
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\System.Web.Optimization.xml
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\System.Web.Razor.xml
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\System.Web.WebPages.xml
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\System.Web.WebPages.Deployment.xml
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\System.Web.WebPages.Razor.xml
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Newtonsoft.Json.xml
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Antlr3.Runtime.pdb
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\EntityFramework.xml
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\EntityFramework.SqlServer.xml
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.xml
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.xml
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.Google.xml
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.csprojAssemblyReference.cache
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.InitialCreate.resources
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.AddRoles.resources
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.AddUserToRole.resources
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.RegisterForm.resources
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.AddImages.resources
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.categories.resources
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.EditInCourseModel.resources
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.edit2.resources
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.t2.resources
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.EditCourse.resources
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.EditCourse2.resources
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.EditCourse3.resources
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.EditCourseFinal.resources
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.editincoursemod1.resources
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.EditPublisher.resources
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.editusernameidentity.resources
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.editCourseRating.resources
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.addAboutUser2.resources
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.addLikesandUnlikes6.resources
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.addLikesandUnlikesshit1.resources
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.AddPersonalNotes.resources
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.CKEditor.resources
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.AddPersonalNotes2.resources
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.NoteLogo.resources
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.NoteLogo2.resources
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.Comments.resources
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.chat.resources
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.chatckEditor.resources
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.EditInChat.resources
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.EditInChatMessages.resources
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.AddUserChatsToIdentity.resources
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.AddCommentTime.resources
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.csproj.GenerateResource.cache
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.csproj.CoreCompileInputs.cache
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.csproj.CopyComplete
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.dll
+E:\Eslam2020\2021\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.pdb
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\DistanceLearning.dll.config
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\DistanceLearning.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\DistanceLearning.pdb
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\csc.exe
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\csc.exe.config
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\csc.rsp
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\csi.exe
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\csi.rsp
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\System.AppContext.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\System.Collections.Immutable.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\System.IO.FileSystem.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\System.Reflection.Metadata.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\vbc.exe
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\vbc.exe.config
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\vbc.rsp
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\VBCSCompiler.exe
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\roslyn\VBCSCompiler.exe.config
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Antlr3.Runtime.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\EntityFramework.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\EntityFramework.SqlServer.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.Google.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Web.Infrastructure.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Newtonsoft.Json.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Owin.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\System.Web.Helpers.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\System.Web.Mvc.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\System.Web.Optimization.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\System.Web.Razor.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\System.Web.WebPages.Deployment.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\System.Web.WebPages.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\System.Web.WebPages.Razor.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\WebGrease.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\System.Web.Helpers.xml
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\System.Web.Mvc.xml
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\System.Web.Optimization.xml
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\System.Web.Razor.xml
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\System.Web.WebPages.xml
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\System.Web.WebPages.Deployment.xml
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\System.Web.WebPages.Razor.xml
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Newtonsoft.Json.xml
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Antlr3.Runtime.pdb
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\EntityFramework.xml
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\EntityFramework.SqlServer.xml
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.xml
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.xml
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.Google.xml
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.csproj.AssemblyReference.cache
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.InitialCreate.resources
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.AddRoles.resources
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.AddUserToRole.resources
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.RegisterForm.resources
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.AddImages.resources
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.categories.resources
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.EditInCourseModel.resources
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.edit2.resources
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.t2.resources
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.EditCourse.resources
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.EditCourse2.resources
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.EditCourse3.resources
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.EditCourseFinal.resources
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.editincoursemod1.resources
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.EditPublisher.resources
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.editusernameidentity.resources
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.editCourseRating.resources
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.addAboutUser2.resources
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.addLikesandUnlikes6.resources
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.addLikesandUnlikesshit1.resources
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.AddPersonalNotes.resources
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.CKEditor.resources
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.AddPersonalNotes2.resources
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.NoteLogo.resources
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.NoteLogo2.resources
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.Comments.resources
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.chat.resources
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.chatckEditor.resources
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.EditInChat.resources
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.EditInChatMessages.resources
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.AddUserChatsToIdentity.resources
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.AddCommentTime.resources
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.csproj.GenerateResource.cache
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.csproj.CoreCompileInputs.cache
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.csproj.CopyComplete
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.dll
+E:\Eslam22\._0works\asp.net\Old-Learning\Learning\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.pdb
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\DistanceLearning.dll.config
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\DistanceLearning.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\DistanceLearning.pdb
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\roslyn\csc.exe
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\roslyn\csc.exe.config
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\roslyn\csc.rsp
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\roslyn\csi.exe
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\roslyn\csi.rsp
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\roslyn\System.AppContext.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\roslyn\System.Collections.Immutable.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\roslyn\System.IO.FileSystem.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\roslyn\System.Reflection.Metadata.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\roslyn\vbc.exe
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\roslyn\vbc.exe.config
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\roslyn\vbc.rsp
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\roslyn\VBCSCompiler.exe
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\roslyn\VBCSCompiler.exe.config
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\Antlr3.Runtime.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\EntityFramework.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\EntityFramework.SqlServer.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\Microsoft.AspNet.Identity.Core.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.Cookies.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.Facebook.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.Google.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.OAuth.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.Twitter.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\Microsoft.Web.Infrastructure.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\Newtonsoft.Json.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\Owin.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\System.Web.Helpers.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\System.Web.Mvc.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\System.Web.Optimization.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\System.Web.Razor.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\System.Web.WebPages.Deployment.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\System.Web.WebPages.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\System.Web.WebPages.Razor.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\WebGrease.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\System.Web.Helpers.xml
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\System.Web.Mvc.xml
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\System.Web.Optimization.xml
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\System.Web.Razor.xml
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\System.Web.WebPages.xml
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\System.Web.WebPages.Deployment.xml
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\System.Web.WebPages.Razor.xml
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\Newtonsoft.Json.xml
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\Antlr3.Runtime.pdb
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\EntityFramework.xml
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\EntityFramework.SqlServer.xml
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\Microsoft.AspNet.Identity.Core.xml
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.xml
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.xml
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.Facebook.xml
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.Cookies.xml
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.Google.xml
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.Twitter.xml
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\Microsoft.Owin.Security.OAuth.xml
+E:\_My Projects\DistanceLearning\DistanceLearning\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\_My Projects\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.csproj.AssemblyReference.cache
+E:\_My Projects\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.InitialCreate.resources
+E:\_My Projects\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.AddRoles.resources
+E:\_My Projects\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.AddUserToRole.resources
+E:\_My Projects\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.RegisterForm.resources
+E:\_My Projects\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.AddImages.resources
+E:\_My Projects\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.categories.resources
+E:\_My Projects\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.EditInCourseModel.resources
+E:\_My Projects\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.edit2.resources
+E:\_My Projects\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.t2.resources
+E:\_My Projects\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.EditCourse.resources
+E:\_My Projects\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.EditCourse2.resources
+E:\_My Projects\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.EditCourse3.resources
+E:\_My Projects\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.EditCourseFinal.resources
+E:\_My Projects\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.editincoursemod1.resources
+E:\_My Projects\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.EditPublisher.resources
+E:\_My Projects\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.editusernameidentity.resources
+E:\_My Projects\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.editCourseRating.resources
+E:\_My Projects\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.addAboutUser2.resources
+E:\_My Projects\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.addLikesandUnlikes6.resources
+E:\_My Projects\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.addLikesandUnlikesshit1.resources
+E:\_My Projects\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.AddPersonalNotes.resources
+E:\_My Projects\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.CKEditor.resources
+E:\_My Projects\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.AddPersonalNotes2.resources
+E:\_My Projects\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.NoteLogo.resources
+E:\_My Projects\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.NoteLogo2.resources
+E:\_My Projects\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.Comments.resources
+E:\_My Projects\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.chat.resources
+E:\_My Projects\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.chatckEditor.resources
+E:\_My Projects\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.EditInChat.resources
+E:\_My Projects\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.EditInChatMessages.resources
+E:\_My Projects\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.AddUserChatsToIdentity.resources
+E:\_My Projects\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.Migrations.AddCommentTime.resources
+E:\_My Projects\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.csproj.GenerateResource.cache
+E:\_My Projects\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.csproj.CoreCompileInputs.cache
+E:\_My Projects\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.csproj.CopyComplete
+E:\_My Projects\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.dll
+E:\_My Projects\DistanceLearning\DistanceLearning\obj\Debug\DistanceLearning.pdb

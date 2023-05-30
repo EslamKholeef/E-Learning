@@ -1,0 +1,39 @@
+﻿@using Microsoft.AspNet.Identity
+@using DistanceLearning.Models;
+@{
+    ApplicationDbContext db = new ApplicationDbContext();
+    var Id = User.Identity.GetUserId();
+    var currentUser = db.Users.Where(a => a.Id == Id).SingleOrDefault();
+}
+
+@if (Request.IsAuthenticated)
+{
+    using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+    {
+        @Html.AntiForgeryToken()
+
+
+        <hr />
+        <a class="MP-ProfilePageLink btn btn-secondary" href="~/Manage/Index"> <img class="img-thumbnail rounded-circle" width="64" height="64" src="~/Content/ProfilesImages/@currentUser.ProfileImg" /> @currentUser.UserName </a>
+        @*@Html.ActionLink(User.Identity.GetUserName(), "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })*@
+
+        <a href="javascript:document.getElementById('logoutForm').submit()" class="btn btn-danger btn-block MP-LogOut"><span>Log off</span><span>&nbsp;</span> <i class="fas fa-heart-broken"></i></a>
+        <hr />
+
+    }
+}
+else
+{
+    @*<ul class="nav navbar-nav navbar-right">
+            <li>@Html.ActionLink("Register", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+            <li>@Html.ActionLink("Log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+        </ul>*@
+
+    <ul class="list-unstyled ">
+        <li class="text-center">
+            <a id="register-nav-btn" class="btn btn-primary" href="#">Register </a>
+
+            <a id="login-nav-btn" class="btn btn-primary" href="#">Log In</a>
+        </li>
+    </ul>
+}
