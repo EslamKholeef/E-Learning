@@ -80,7 +80,7 @@
                 </div>
 
                 <div>
-                    <p class="NumOfGraduated"> +@db.Users.Where(x => x.UserType == "Instructors").Count() </p>
+                    <p class="NumOfGraduated"> @db.Users.Where(x => x.UserType == "Instructors").Count() </p>
                 </div>
 
                 <div>
@@ -97,7 +97,7 @@
                 </div>
 
                 <div>
-                    <p class="NumOfHours"> +@db.Categories.Count() </p>
+                    <p class="NumOfHours"> @db.Categories.Count() </p>
                 </div>
 
                 <div>
@@ -114,7 +114,7 @@
                 </div>
 
                 <div>
-                    <p class="NumOfStudents"> +@db.Users.Where(x => x.UserType == "Students").Count() </p>
+                    <p class="NumOfStudents"> @db.Users.Where(x => x.UserType == "Students").Count() </p>
                 </div>
 
                 <div>
@@ -131,7 +131,7 @@
                 </div>
 
                 <div>
-                    <p class="NumOfCourses"> +@db.CourseModels.Count() </p>
+                    <p class="NumOfCourses"> @db.CourseModels.Count() </p>
                 </div>
 
                 <div>

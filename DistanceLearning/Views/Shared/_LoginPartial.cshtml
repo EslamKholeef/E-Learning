@@ -17,7 +17,7 @@
         <a class="MP-ProfilePageLink btn btn-secondary" href="~/Manage/Index"> <img class="img-thumbnail rounded-circle" width="64" height="64" src="~/Content/ProfilesImages/@currentUser.ProfileImg" /> @currentUser.UserName </a>
         @*@Html.ActionLink(User.Identity.GetUserName(), "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })*@
 
-        <a href="javascript:document.getElementById('logoutForm').submit()" class="btn btn-danger btn-block MP-LogOut"><span>Log off</span><span>&nbsp;</span> <i class="fas fa-heart-broken"></i></a>
+        <a href="javascript:document.getElementById('logoutForm').submit()" class="btn btn-danger btn-block MP-LogOut"><span>Log out</span><span>&nbsp;</span> <i class="fas fa-heart-broken"></i></a>
         <hr />
 
     }

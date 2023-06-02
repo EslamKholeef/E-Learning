@@ -135,7 +135,7 @@
                             <div class="col-sm-12">
                                 <div class="form-group">
 
-                                    <input type="file" name="UploadVideo" />
+                                    <input id="videoFile" type="file" name="UploadVideo" />
 
                                 </div>
                             </div>
@@ -144,7 +144,7 @@
                             <div class="col-sm-12">
                                 <div class="form-group">
 
-                                    <input class="form-control" type="text" name="VideoTitle" placeholder="VideoTitle" />
+                                    <input id="VideoTitle" class="form-control" type="text" name="VideoTitle" placeholder="VideoTitle" />
 
                                 </div>
                             </div>
@@ -172,3 +172,24 @@
             </div>
         }
 
+
+<script>
+    var btn = document.getElementsByClassName("SubmitAddVideoBtn")[0];
+    var file = document.getElementById("videoFile");
+    var title = document.getElementById("VideoTitle");
+    btn.onclick = function ()
+    {
+        if (file.value.length == 0) {
+            alert("you must choose a video file from your PC please!");
+            return false;
+        }
+        if (file.value.split('.').pop() != "mp4" || file.value.split('.').pop() != "3gp") {
+            alert("Extensions mp4 & 3gp accepted only");
+            return false;
+        }
+        if (title.value.length < 4) {
+            alert("your video must have a title mor than 4 chars!");
+            return false;
+        }
+    };
+</script>

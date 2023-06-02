@@ -45,7 +45,7 @@ namespace DistanceLearning.Controllers
 
         // GET: CourseModels/Create
         
-        [Authorize(Roles = "Instructors")]
+
         public ActionResult Create()
         {
             

@@ -17,7 +17,7 @@
     var comment = db.Comments.Where(co => co.CourseId == ThisCourseId && co.User.Id == Id).FirstOrDefault();
 }
 
-<h2 class="CourseTitle">@Model.CourseName</h2>
+<h2 class="CourseTitle">@Model.CourseName.ToUpper() Course</h2>
 <hr />
 
 
@@ -66,66 +66,65 @@
     <hr />
 
 
+
     <div class="row">
-        <div class="col-lg-8">
-            @if (Model.AboutTheCourse == null)
-            {
-                <p> No informations about this corse! </p>
-            }
-            else
-            {
-                <p>@Html.Raw(HttpUtility.HtmlDecode(Model.AboutTheCourse.ToString()))</p>
-            }
-
-        </div>
-
-
-        <div class="col-lg-4">
-
-        </div>
+        <h2 class="CourseTitle  text-center"> About This Course </h2>
     </div>
+
+    <div class="row">
+        @if (Model.AboutTheCourse == null)
+        {
+            <p> No informations about this corse! </p>
+        }
+        else
+        {
+            <div class="col-12">
+                <p class="text-black-50">Instructor Info:</p> <p>@Model.MainPublisher.UserName <br /> @Model.MainPublisher.AboutUser</p>
+
+            </div>
+
+            <div class="col-12">
+                <p class="text-black-50">Course Topics:</p>
+                <p>@Html.Raw(HttpUtility.HtmlDecode(Model.AboutTheCourse.ToString()))</p>
+            </div>
+
+
+        }
+    </div>
+
+
 
     <hr />
 
-    <div class="row">
-
-        <div class="col-lg-6 text-center NumOfStudentsInCourse">
-            <span class="fas-item "> <i class="fas fa-user-graduate fa-4x"></i></span>
-            <p> <span>@ThisCourse.RegisteredUsers.Count()</span> Registered users </p>
-
-            <p><span> @ThisCourse.RateOfLikes</span> Users liked this tutorial</p>
-
-            <p><span>@ThisCourse.RateOfUnLikes</span> Users diss-like this tutorial</p>
-
-        </div>
+    <div class="row" id="PartialCourseRate">
 
 
-        <div class="col-lg-6">
-
-            <div id="PartialCourseRate">
+            <div class="col-lg-12">
                 @Html.Partial("_PartialCourseRate")
             </div>
 
 
-        </div>
+
 
 
         @*@if (currentUser.MyCourses.Contains(c) && currentUser.Comments.Contains(comment) == false)
-            {
-                <form action="~/CourseModels/AddComment" method="post">
-                    <textarea name="text"></textarea>
-                    <input type="text" name="id" value="@ThisCourseId" style="display:none;" />
-                    <input type="text" name="userId" value="@Id" style="display:none;" />
-                    <button type="submit" class="btn btn-success">Share Comment</button>
-                </form>
-            }*@
+        {
+            <form action="~/CourseModels/AddComment" method="post">
+                <textarea name="text"></textarea>
+                <input type="text" name="id" value="@ThisCourseId" style="display:none;" />
+                <input type="text" name="userId" value="@Id" style="display:none;" />
+                <button type="submit" class="btn btn-success">Share Comment</button>
+            </form>
+        }*@
 
 
     </div>
 
     <hr />
 
-
+    <div class="row">
+        <h2 class="CourseTitle  text-center"> Student opinions </h2>
+    </div>
     <div id="CD-CourseComments" class="CD-CourseComments">
         @Html.Partial("_Comments")
 

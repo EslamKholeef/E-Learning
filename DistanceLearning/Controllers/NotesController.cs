@@ -71,7 +71,7 @@ namespace DistanceLearning.Controllers
                 db.Notes.Add(note);
                 currentUser.Notes.Add(note);
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("Index", "Manage", new { area = "" });
             }
 
             return View(note);

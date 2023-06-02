@@ -16,31 +16,44 @@
     var comment = db.Comments.Where(co => co.CourseId == ThisCourseId && co.User.Id == Id).FirstOrDefault();
 }
 
-@if (ThisCourse.FinalRatingDegree >= 50)
-{
-    <p class="text-center"> <span class="CD-num-of-likes CD-More-Fifty">@Math.Round(ThisCourse.FinalRatingDegree, 1)% </span> <span>of those who participated in the evaluation of this content liked it</span> </p>
-}
-else if (ThisCourse.FinalRatingDegree < 50 && ThisCourse.FinalRatingDegree > 10)
-{
-    <p class="text-center"> <span class="CD-num-of-likes CD-Lower-Fifty">@Math.Round(ThisCourse.FinalRatingDegree, 1)% </span><span>of those who participated in the evaluation of this content liked it</span></p>
-}
-else
-{
-    <p class="text-center"> <span class="CD-num-of-likes CD-Lower-ten">@Math.Round(ThisCourse.FinalRatingDegree, 1)% </span><span>of those who participated in the evaluation of this content liked it</span></p>
-}
-
-
-
 <div class="row">
+    <div class="col-lg-6 text-center NumOfStudentsInCourse">
+        <span class="fas-item "> <i class="fas fa-user-graduate fa-4x"></i></span>
+        <p> <span>@ThisCourse.RegisteredUsers.Count()</span> Registered users </p>
+
+        <p><span> @ThisCourse.RateOfLikes</span> Users liked this tutorial</p>
+
+        <p><span>@ThisCourse.RateOfUnLikes</span> Users diss-like this tutorial</p>
+
+    </div>
+
+    <div class="col-lg-6 ">
+        @if (ThisCourse.FinalRatingDegree >= 50)
+        {
+            <p class="text-center"> <span class="CD-num-of-likes CD-More-Fifty">@Math.Round(ThisCourse.FinalRatingDegree, 1)% </span> <span>of those who participated in the evaluation of this content liked it</span> </p>
+        }
+        else if (ThisCourse.FinalRatingDegree < 50 && ThisCourse.FinalRatingDegree > 10)
+        {
+            <p class="text-center"> <span class="CD-num-of-likes CD-Lower-Fifty">@Math.Round(ThisCourse.FinalRatingDegree, 1)% </span><span>of those who participated in the evaluation of this content liked it</span></p>
+        }
+        else
+        {
+            <p class="text-center"> <span class="CD-num-of-likes CD-Lower-ten">@Math.Round(ThisCourse.FinalRatingDegree, 1)% </span><span>of those who participated in the evaluation of this content liked it</span></p>
+        }
 
 
-    <div class="col-lg-12 ">
+
+
+
+
+
+
         @if (currentUser.LikedCourses.Contains(ThisCourse))
         { }
-        else if (currentUser.MyCourses.Contains(c)&& currentUser.LikedCourses.Contains(ThisCourse)==false)
+        else if (currentUser.MyCourses.Contains(c) && currentUser.LikedCourses.Contains(ThisCourse) == false)
         {
 
-            <div class="row text-center Rating">
+            <div class=" text-center Rating">
 
                 <div class="col-lg-4">
                     <p> are you like this course? </p>
@@ -77,6 +90,8 @@ else
                     }
 
                 </div>
+
+
             </div>
             <hr />
 

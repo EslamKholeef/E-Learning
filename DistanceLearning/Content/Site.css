@@ -49,7 +49,7 @@ textarea {
 
 .Layout_Chat_Btn span {
     position: fixed;
-    top: 70px;
+    bottom: 5% !important;
     left: 10px;
     background-color: #959595;
     padding: 10px;
@@ -86,6 +86,16 @@ textarea {
 /******************************************/
 /***********Course Details Page***********/
 /******************CD********************/
+
+#myTable.dataTable.no-footer {
+    border-bottom: 0px solid white !important;
+}
+
+#myTable tr, #myTable td {
+    background-color: white !important;
+}
+
+
 .Video-List {
     max-height: 400px;
     overflow: auto;
@@ -176,6 +186,10 @@ textarea {
     .CD-Options a:nth-of-type(2):hover {
         color: #0c5460;
     }
+
+
+
+
 
 .Reg-Course-Btn {
     margin: 20px auto;
@@ -683,3 +697,6 @@ display:block;
 #UsersToConnect_wrapper {
     margin-top: 100px !important;
 }
+
+
+/*********************/

@@ -17,7 +17,7 @@
 
         @if (Model.Count() == 0)
         {
-            <h3 class="alert alert-warning"> Ops! No Courses available Until Now! </h3>
+            <h3 class="alert alert-warning"> Ops! No Courses available with this name! </h3>
         }
         else
         {
@@ -33,11 +33,14 @@
                             <img src="~/Content/CourseLogos/@item.CourseLogo" class="model">
 
                             <div class="details">
-
-
+                    
                                 <p>
-                                    @item.AboutTheCourse
+                                    @item.MainPublisher.UserName
+
+                                    @Html.Raw(HttpUtility.HtmlDecode(item.AboutTheCourse.ToString()))
                                 </p>
+                                    
+                              
                             </div>
 
                         </div>
