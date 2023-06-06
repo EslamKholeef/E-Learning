@@ -87,10 +87,53 @@ textarea {
 /***********Course Details Page***********/
 /******************CD********************/
 
+.CourseCard {
+    background-color: #4f6982 !important;
+}
+    .CourseCard:hover {
+        background-color: #1e65a8 !important;
+        transition: .3s all linear;
+        color: white;
+    }
+.RemoveCourseBtn, .EditCourseBtn {
+    position: relative !important;
+    color: red;
+    bottom: -190px;
+    left: 20px;
+    z-index: 5;
+}
+
+.RemoveCourseBtn:hover {
+    text-decoration: none;
+    color: red;
+}
+.EditCourseBtn {
+    color: #28a745;
+    left: 130px;
+}
+.CourseCard img{
+    width:100%;
+    height:150px;
+}
+.EditCourseBtn:hover {
+    text-decoration: none;
+    color: #28a745;
+}
+.AboutThisCourse{
+    height:150px;
+    max-height:150px;
+    overflow-y:scroll;
+}
+.like, .dislike {
+    background: none !important;
+}
 #myTable.dataTable.no-footer {
     border-bottom: 0px solid white !important;
 }
-
+#myTable th{
+    width:0px !important;
+    height:0px !important;
+}
 #myTable tr, #myTable td {
     background-color: white !important;
 }
@@ -331,12 +374,15 @@ textarea {
         min-width: 100%;
         max-width: 100%;
         min-height: 100px;
+        max-height: 100px;
         text-align: center;
         font-size: 18px;
         font-style: italic;
         font-weight: 700;
         font-family: 'Font Awesome 5 Brands';
-        padding: 5px 10px;
+        padding: 2px 5px;
+        border-radius: 10px 50px;
+        color: dodgerblue;
     }
     .AddCommentForm button{
         display:block;
@@ -361,6 +407,7 @@ textarea {
     font-weight: bold;
     font-size: 11px !important;
 }
+
 /**************************************************/
 /*****************Manage Page*********************/
 /************************************************/
@@ -371,12 +418,14 @@ textarea {
 }
 
 .MP-AboutUser {
-    color: lightslategray
+    color: lightslategray;
+    max-height:350px;
+    overflow-y:scroll;
+    font-size:20px
 }
 .MP-UserPic {
     display: block;
     margin-top: 40px;
-
 }
 #Edit-Form-Btn{
     cursor:pointer;

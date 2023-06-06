@@ -56,7 +56,7 @@ namespace DistanceLearning.Controllers
             }
             if (ModelState.IsValid)
             {
-                string path = Path.Combine(Server.MapPath("~/Content/Videos/"+course.CourseName), UploadVideo.FileName);
+                string path = Path.Combine(Server.MapPath("~/Content/Videos/"+course.CourseName.Replace(" ", string.Empty)), UploadVideo.FileName);
                 UploadVideo.SaveAs(path);
                 videos.Path = UploadVideo.FileName;
                 
@@ -81,7 +81,7 @@ namespace DistanceLearning.Controllers
             CourseModel course = db.CourseModels.Where(x => x.Code == videos.CourseCode).First();
             
             
-                string path = Path.Combine(Server.MapPath("~/Content/Videos/" + course.CourseName), UploadVideo.FileName);
+                string path = Path.Combine(Server.MapPath("~/Content/Videos/" + course.CourseName.Replace(" ", string.Empty)), UploadVideo.FileName);
                 UploadVideo.SaveAs(path);
                 videos.Path = UploadVideo.FileName;
 

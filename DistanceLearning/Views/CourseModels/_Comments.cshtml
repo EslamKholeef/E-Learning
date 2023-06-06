@@ -145,10 +145,18 @@
                 InsertionMode = InsertionMode.Replace
             }))
             {
-                <textarea id="CommentText" name="text"></textarea>
+                <div class="row">
+                    <div class="col-md-10">
+                        <textarea id="CommentText" name="text"></textarea>
+                    </div>
+
+                    <div class="col-md-2">
+                        <button id="ShareCommentBtn" type="submit" class="btn btn-primary mt-5">Send <i class="fa-solid fa-paper-plane"></i></button>
+                    </div>
+                </div>
+
                 <input type="text" name="id" value="@ThisCourseId" style="display:none;" />
                 <input type="text" name="userId" value="@Id" style="display:none;" />
-                <button id="ShareCommentBtn" type="submit" class="btn btn-success">Share Comment</button>
             }
         </div>
     </div>

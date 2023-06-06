@@ -53,14 +53,14 @@
         else if (currentUser.MyCourses.Contains(c) && currentUser.LikedCourses.Contains(ThisCourse) == false)
         {
 
-            <div class=" text-center Rating">
+            <div class="row text-center Rating">
 
-                <div class="col-lg-4">
+                <div class="col-lg-12">
                     <p> are you like this course? </p>
                     <span> Note: This poll is only available once </span>
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-lg-6">
                     @using (Ajax.BeginForm("Liked", "CourseModels", new AjaxOptions()
                     {
                         UpdateTargetId = "PartialCourseRate",
@@ -75,7 +75,7 @@
 
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-lg-6">
                     @using (Ajax.BeginForm("UnLiked", "CourseModels", new AjaxOptions()
                     {
                         UpdateTargetId = "PartialCourseRate",
@@ -93,7 +93,6 @@
 
 
             </div>
-            <hr />
 
         }
     </div>

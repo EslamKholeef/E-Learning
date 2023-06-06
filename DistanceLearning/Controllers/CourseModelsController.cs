@@ -33,7 +33,7 @@ namespace DistanceLearning.Controllers
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
             CourseModel courseModel = db.CourseModels.Find(id);
-            ViewBag.CurrentCourse = courseModel.CourseName;
+            ViewBag.CurrentCourse = courseModel.CourseName.Replace(" ", string.Empty);
 
             ViewBag.courseID = id;
             if (courseModel == null)
@@ -76,7 +76,7 @@ namespace DistanceLearning.Controllers
                     }
                 }
                 
-                Directory.CreateDirectory(Server.MapPath("~/Content/Videos/"+courseModel.CourseName));
+                Directory.CreateDirectory(Server.MapPath("~/Content/Videos/"+courseModel.CourseName.Replace(" ", string.Empty)));
                 // If directory does not exist, create it
                 //if (!Directory.Exists(dir))
                 //{
@@ -88,7 +88,7 @@ namespace DistanceLearning.Controllers
                 courseModel.CourseLogo = CourseLogo.FileName;
 
 
-                string path2 = Path.Combine(Server.MapPath("~/Content/Videos/"+courseModel.CourseName),CourseDemo.FileName);
+                string path2 = Path.Combine(Server.MapPath("~/Content/Videos/"+courseModel.CourseName.Replace(" ", string.Empty)),CourseDemo.FileName);
                 CourseDemo.SaveAs(path2);
                 courseModel.DemoAboutTheCourse = CourseDemo.FileName;
 
@@ -492,8 +492,8 @@ namespace DistanceLearning.Controllers
         public PartialViewResult PartialCreate(Videos videos, HttpPostedFileBase UploadVideo)
         {
             CourseModel course = db.CourseModels.Where(x => x.Code == videos.CourseCode).First();
-            ViewBag.CurrentCourse = course.CourseName;
-            string path = Path.Combine(Server.MapPath("~/Content/Videos/" + course.CourseName), UploadVideo.FileName);
+            ViewBag.CurrentCourse = course.CourseName.Replace(" ", string.Empty);
+            string path = Path.Combine(Server.MapPath("~/Content/Videos/" + course.CourseName.Replace(" ", string.Empty)), UploadVideo.FileName);
             UploadVideo.SaveAs(path);
             videos.Path = UploadVideo.FileName;
 
@@ -514,7 +514,7 @@ namespace DistanceLearning.Controllers
         public PartialViewResult PartialDeleteVideo (int? id, int? courseId)
         {
             var course = db.CourseModels.Find(courseId);
-            ViewBag.CurrentCourse = course.CourseName;
+            ViewBag.CurrentCourse = course.CourseName.Replace(" ", string.Empty);
             Videos v = db.Videos.First(vi => vi.Id == id);
             course.Videos.Remove(v);
             db.Videos.Remove(v);

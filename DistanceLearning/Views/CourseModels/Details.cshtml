@@ -10,7 +10,7 @@
 
     var ThisCourseId = Model.Id;
     var ThisCourse = db.CourseModels.Where(x => x.Id == ThisCourseId).FirstOrDefault();
-    ViewBag.CurrentCourse = ThisCourse.CourseName;
+    ViewBag.CurrentCourse = ThisCourse.CourseName.Replace(" ", string.Empty);
 
     var c = db.CoursesAndUsers.Where(x => x.TheCourse_Id == Model.Id && x.TheUser_Id == Id).FirstOrDefault();
     //ViewBag.CheckIfRegistered = null;
@@ -28,7 +28,7 @@
         <div id="DisplayMainVideo" class="col-lg-8">
             <div class="Big">
                 <video autoplay controls height="400">
-                    <source src="~/Content/Videos/@Model.CourseName/@Model.DemoAboutTheCourse" />
+                    <source src="~/Content/Videos/@Model.CourseName.Replace(" ", string.Empty)/@Model.DemoAboutTheCourse" />
                 </video>
 
             </div>
@@ -139,7 +139,7 @@
             <div class="col-lg-12">
                 <a class="btn btn-info d-block" href="~/CourseModels/Edit/@Model.Id"> Edit course details </a>
                 <hr />
-                <a type="submit" onclick="return confirm ('realy?')" class="btn btn-danger d-block" href="~/CourseModels/Delete/@Model.Id"> Delete the course! </a>
+                <a type="submit" onclick="return confirm ('Are you Sure?')" class="btn btn-danger d-block" href="~/CourseModels/Delete/@Model.Id"> Delete the course! </a>
             </div>
         </div>
         <hr />

@@ -439,7 +439,7 @@ namespace DistanceLearning.Controllers
 
 
         [HttpPost]
-        public ActionResult EditProfile (string Name, string OldPassword ,string NewPassword, string AboutUser)
+        public ActionResult EditProfile (string Name, string OldPassword ,string NewPassword, string AboutUser, HttpPostedFileBase ProfileImg)
         {
             var id = User.Identity.GetUserId();
             var user = db.Users.Where(u => u.Id == id).FirstOrDefault();
@@ -458,6 +458,12 @@ namespace DistanceLearning.Controllers
                 user.PasswordHash = UserManager.PasswordHasher.HashPassword(NewPassword);
                 user.AboutUser = AboutUser;
                 db.Entry(user).State = System.Data.Entity.EntityState.Modified;
+
+                string path = Path.Combine(Server.MapPath("~/Content/ProfilesImages"), ProfileImg.FileName);
+                ProfileImg.SaveAs(path);
+                user.ProfileImg = ProfileImg.FileName;
+
+
                 db.SaveChanges();
                 TempData["EditState"] = "Edit Success !";
                 AuthenticationManager.SignOut(DefaultAuthenticationTypes.ApplicationCookie);

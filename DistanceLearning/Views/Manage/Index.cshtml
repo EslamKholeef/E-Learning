@@ -47,8 +47,9 @@
     <div id="Edit-Form" class="row">
         <div class="col-sm-12">
 
-
-            <form action="~/Account/EditProfile" method="post">
+            @using (Html.BeginForm("EditProfile", "Account", FormMethod.Post, new { enctype = "multipart/form-data" }))
+            {
+                @Html.AntiForgeryToken()
                 <div class="form-group">
                     <input class="form-control" type="text" name="Name" placeholder="Your New Name" value="@currentUser.UserName" />
                 </div>
@@ -56,14 +57,21 @@
                     <textarea class="form-control" type="text" name="AboutUser" placeholder="About You?">@currentUser.AboutUser</textarea>
                 </div>
                 <div class="form-group">
-                    <input class="form-control" type="text" name="OldPassword" placeholder="Old Password" />
+                    <input class="form-control" type="password" name="OldPassword" placeholder="Old Password" />
                 </div>
                 <div class="form-group">
-                    <input class="form-control" type="text" name="NewPassword" placeholder="New Password" />
+                    <input class="form-control" type="password" name="NewPassword" placeholder="New Password" />
                 </div>
 
+                <div class="form-group">
+                    <label> Profile Image </label>
+                    <input type="file" name="ProfileImg" id="ProfileImg" />
+                </div>
                 <button type="submit" class="btn btn-primary btn-block"> Submit </button>
-            </form>
+
+
+            }
+
         </div>
     </div>
 
@@ -93,7 +101,7 @@
                         <div class="details">
                             @course.MainPublisher.UserName
                         </div>
-                        <a href="~/CourseModels/Details/@course.Id" class="alert alert-secondary text-center"> @course.CourseName </a>
+                        <a href="~/CourseModels/Details/@course.Id" class="btn btn-primary btn-block text-center"> @course.CourseName </a>
                     </div>
                 </li>
 
@@ -125,7 +133,7 @@
 
 
                         </div>
-                        <a href="~/CourseModels/Details/@item.TheCourse_Id" class="btn btn-info btn-block text-center"> @item.Course.CourseName </a>
+                        <a href="~/CourseModels/Details/@item.TheCourse_Id" class="btn btn-primary btn-block text-center"> @item.Course.CourseName </a>
                     </div>
                 </li>
 

@@ -6,12 +6,18 @@
 }
 
 
+
+<div class="container">
+    <form action="~/Home/Search" method="post" class="form-inline my-2 my-lg-0">
+        <input class="form-control w-100 mt-3" name="Title" type="search" placeholder="Search"
+               aria-label="Search">
+        <button class="btn btn-info btn-block mt-3 mb-3" type="submit">Search</button>
+    </form>
+</div>
+
+
+
 <div class="Best-Courses">
-    <div class="container-fluid">
-        <h2 class="text-center">Courses Found</h2>
-    </div>
-
-
     <div class="container2">
 
 
@@ -33,14 +39,13 @@
                             <img src="~/Content/CourseLogos/@item.CourseLogo" class="model">
 
                             <div class="details">
-                    
+
                                 <p>
                                     @item.MainPublisher.UserName
 
                                     @Html.Raw(HttpUtility.HtmlDecode(item.AboutTheCourse.ToString()))
                                 </p>
-                                    
-                              
+                                <a class="btn btn-block btn-primary" href="@Url.Action("Details/"+@item.Id,"CourseModels")">Go</a>
                             </div>
 
                         </div>
